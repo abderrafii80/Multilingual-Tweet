@@ -1,0 +1,706 @@
+{
+    "tweet_id":{
+        "0":1858193473310232643,
+        "1":1858193469514117584,
+        "2":1858193458923794624,
+        "3":1858193422462357519,
+        "4":1858193412777709863,
+        "5":1858193411875954981,
+        "6":1858193410332459383,
+        "7":1858193406377291828,
+        "8":1858193405534142662,
+        "9":1858193397346885672
+    },
+    "text":{
+        "0":"bet refused wear mask covid brave flags",
+        "1":"difference covid vaccination differences health outcomes",
+        "2":"weeks providential dad returned hospital covid caught vaccine batch hugs",
+        "3":"believed california democrat middleoftheroad moderate biden pulled lunch bucket joe scranton covid meant activist fringe",
+        "4":"study patients cancer treated cancer center consistently satisfaction firsttime users telemedicine cancer care start covid pandemic",
+        "5":"cook stipe fight covid stipe chance",
+        "6":"lol job rachel keeping americans safe healthy murders bunch seniors pulling mother care covid",
+        "7":"covid lockdowns commie ny cuomo live everyday death counts sick nursing homes",
+        "8":"feed covid lab",
+        "9":"imagine guilt family childrens doctorssurgeons spoken covid"
+    },
+    "created_at":{
+        "0":1731862822000,
+        "1":1731862821000,
+        "2":1731862818000,
+        "3":1731862810000,
+        "4":1731862807000,
+        "5":1731862807000,
+        "6":1731862807000,
+        "7":1731862806000,
+        "8":1731862806000,
+        "9":1731862804000
+    },
+    "author_id":{
+        "0":22534554,
+        "1":2590663369,
+        "2":1380668071921221636,
+        "3":42666106,
+        "4":850455051965431808,
+        "5":1825251921294241795,
+        "6":1738328371531001857,
+        "7":1550947085226221570,
+        "8":1591770680743415808,
+        "9":1751925051476320257
+    },
+    "context_annotations":{
+        "0":[
+            {
+                "domain":{
+                    "id":"123",
+                    "name":"Ongoing News Story",
+                    "description":"Ongoing News Stories like 'Brexit'"
+                },
+                "entity":{
+                    "id":"1220701888179359745",
+                    "name":"COVID-19"
+                }
+            },
+            {
+                "domain":{
+                    "id":"131",
+                    "name":"Unified Twitter Taxonomy",
+                    "description":"A taxonomy of user interests. "
+                },
+                "entity":{
+                    "id":"1220701888179359745",
+                    "name":"COVID-19"
+                }
+            },
+            {
+                "domain":{
+                    "id":"29",
+                    "name":"Events [Entity Service]",
+                    "description":"Real world events. "
+                },
+                "entity":{
+                    "id":"1219057585707315201",
+                    "name":"COVID-19: Latest news updates from around the world",
+                    "description":"This page is a timeline of Tweets with the latest information and updates on COVID-19 from experts, journalists, health authorities and other trusted sources from around the world. For more on COVID-19, visit: twitter.com\/explore\/tabs\/covid-19"
+                }
+            }
+        ],
+        "1":[
+            {
+                "domain":{
+                    "id":"123",
+                    "name":"Ongoing News Story",
+                    "description":"Ongoing News Stories like 'Brexit'"
+                },
+                "entity":{
+                    "id":"1220701888179359745",
+                    "name":"COVID-19"
+                }
+            },
+            {
+                "domain":{
+                    "id":"131",
+                    "name":"Unified Twitter Taxonomy",
+                    "description":"A taxonomy of user interests. "
+                },
+                "entity":{
+                    "id":"1220701888179359745",
+                    "name":"COVID-19"
+                }
+            },
+            {
+                "domain":{
+                    "id":"29",
+                    "name":"Events [Entity Service]",
+                    "description":"Real world events. "
+                },
+                "entity":{
+                    "id":"1219057585707315201",
+                    "name":"COVID-19: Latest news updates from around the world",
+                    "description":"This page is a timeline of Tweets with the latest information and updates on COVID-19 from experts, journalists, health authorities and other trusted sources from around the world. For more on COVID-19, visit: twitter.com\/explore\/tabs\/covid-19"
+                }
+            }
+        ],
+        "2":[
+            {
+                "domain":{
+                    "id":"123",
+                    "name":"Ongoing News Story",
+                    "description":"Ongoing News Stories like 'Brexit'"
+                },
+                "entity":{
+                    "id":"1220701888179359745",
+                    "name":"COVID-19"
+                }
+            },
+            {
+                "domain":{
+                    "id":"131",
+                    "name":"Unified Twitter Taxonomy",
+                    "description":"A taxonomy of user interests. "
+                },
+                "entity":{
+                    "id":"1220701888179359745",
+                    "name":"COVID-19"
+                }
+            },
+            {
+                "domain":{
+                    "id":"29",
+                    "name":"Events [Entity Service]",
+                    "description":"Real world events. "
+                },
+                "entity":{
+                    "id":"1219057585707315201",
+                    "name":"COVID-19: Latest news updates from around the world",
+                    "description":"This page is a timeline of Tweets with the latest information and updates on COVID-19 from experts, journalists, health authorities and other trusted sources from around the world. For more on COVID-19, visit: twitter.com\/explore\/tabs\/covid-19"
+                }
+            }
+        ],
+        "3":[
+            {
+                "domain":{
+                    "id":"10",
+                    "name":"Person",
+                    "description":"Named people in the world like Nelson Mandela"
+                },
+                "entity":{
+                    "id":"10040395078",
+                    "name":"Joe Biden",
+                    "description":"US President Joe Biden"
+                }
+            },
+            {
+                "domain":{
+                    "id":"29",
+                    "name":"Events [Entity Service]",
+                    "description":"Real world events. "
+                },
+                "entity":{
+                    "id":"1665772587467653121",
+                    "name":"2024 US Presidential Election",
+                    "description":"2024 US Presidential Election"
+                }
+            },
+            {
+                "domain":{
+                    "id":"29",
+                    "name":"Events [Entity Service]",
+                    "description":"Real world events. "
+                },
+                "entity":{
+                    "id":"1804210159566168064",
+                    "name":"2024 US Presidential Debate 1 "
+                }
+            },
+            {
+                "domain":{
+                    "id":"35",
+                    "name":"Politician",
+                    "description":"Politicians in the world, like Joe Biden"
+                },
+                "entity":{
+                    "id":"10040395078",
+                    "name":"Joe Biden",
+                    "description":"US President Joe Biden"
+                }
+            },
+            {
+                "domain":{
+                    "id":"46",
+                    "name":"Business Taxonomy",
+                    "description":"Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity":{
+                    "id":"1557696888568045569",
+                    "name":"Food & Beverage Business",
+                    "description":"Brands, companies, advertisers and every non-person handle with the profit intent and related to foods & beverages such as snacks, soft drinks, beers."
+                }
+            },
+            {
+                "domain":{
+                    "id":"30",
+                    "name":"Entities [Entity Service]",
+                    "description":"Entity Service top level domain, every item that is in Entity Service should be in this domain"
+                },
+                "entity":{
+                    "id":"825047692124442624",
+                    "name":"Food",
+                    "description":"Food"
+                }
+            },
+            {
+                "domain":{
+                    "id":"67",
+                    "name":"Interests and Hobbies",
+                    "description":"Interests, opinions, and behaviors of individuals, groups, or cultures; like Speciality Cooking or Theme Parks"
+                },
+                "entity":{
+                    "id":"1006277774384828416",
+                    "name":"Food experience",
+                    "description":"Conversation about eating"
+                }
+            },
+            {
+                "domain":{
+                    "id":"30",
+                    "name":"Entities [Entity Service]",
+                    "description":"Entity Service top level domain, every item that is in Entity Service should be in this domain"
+                },
+                "entity":{
+                    "id":"1006588701193879552",
+                    "name":"Lunch",
+                    "description":"This entity tracks all conversations that mention lunch."
+                }
+            },
+            {
+                "domain":{
+                    "id":"123",
+                    "name":"Ongoing News Story",
+                    "description":"Ongoing News Stories like 'Brexit'"
+                },
+                "entity":{
+                    "id":"1220701888179359745",
+                    "name":"COVID-19"
+                }
+            },
+            {
+                "domain":{
+                    "id":"131",
+                    "name":"Unified Twitter Taxonomy",
+                    "description":"A taxonomy of user interests. "
+                },
+                "entity":{
+                    "id":"10040395078",
+                    "name":"Joe Biden",
+                    "description":"US President Joe Biden"
+                }
+            },
+            {
+                "domain":{
+                    "id":"131",
+                    "name":"Unified Twitter Taxonomy",
+                    "description":"A taxonomy of user interests. "
+                },
+                "entity":{
+                    "id":"825047692124442624",
+                    "name":"Food",
+                    "description":"Food"
+                }
+            },
+            {
+                "domain":{
+                    "id":"131",
+                    "name":"Unified Twitter Taxonomy",
+                    "description":"A taxonomy of user interests. "
+                },
+                "entity":{
+                    "id":"847878884917886977",
+                    "name":"Politics",
+                    "description":"Politics"
+                }
+            },
+            {
+                "domain":{
+                    "id":"131",
+                    "name":"Unified Twitter Taxonomy",
+                    "description":"A taxonomy of user interests. "
+                },
+                "entity":{
+                    "id":"900740740468191232",
+                    "name":"Political issues",
+                    "description":"Political issues"
+                }
+            },
+            {
+                "domain":{
+                    "id":"131",
+                    "name":"Unified Twitter Taxonomy",
+                    "description":"A taxonomy of user interests. "
+                },
+                "entity":{
+                    "id":"1006588701193879552",
+                    "name":"Lunch",
+                    "description":"This entity tracks all conversations that mention lunch."
+                }
+            },
+            {
+                "domain":{
+                    "id":"131",
+                    "name":"Unified Twitter Taxonomy",
+                    "description":"A taxonomy of user interests. "
+                },
+                "entity":{
+                    "id":"1070032753834438656",
+                    "name":"Political figures",
+                    "description":"Politician"
+                }
+            },
+            {
+                "domain":{
+                    "id":"131",
+                    "name":"Unified Twitter Taxonomy",
+                    "description":"A taxonomy of user interests. "
+                },
+                "entity":{
+                    "id":"1220701888179359745",
+                    "name":"COVID-19"
+                }
+            },
+            {
+                "domain":{
+                    "id":"131",
+                    "name":"Unified Twitter Taxonomy",
+                    "description":"A taxonomy of user interests. "
+                },
+                "entity":{
+                    "id":"1291447199595782144",
+                    "name":"United States politics"
+                }
+            },
+            {
+                "domain":{
+                    "id":"131",
+                    "name":"Unified Twitter Taxonomy",
+                    "description":"A taxonomy of user interests. "
+                },
+                "entity":{
+                    "id":"1518689897296453633",
+                    "name":"United States political issues"
+                }
+            },
+            {
+                "domain":{
+                    "id":"131",
+                    "name":"Unified Twitter Taxonomy",
+                    "description":"A taxonomy of user interests. "
+                },
+                "entity":{
+                    "id":"1561888608839053314",
+                    "name":"Immigration to the United States"
+                }
+            },
+            {
+                "domain":{
+                    "id":"131",
+                    "name":"Unified Twitter Taxonomy",
+                    "description":"A taxonomy of user interests. "
+                },
+                "entity":{
+                    "id":"1665772587467653121",
+                    "name":"2024 US Presidential Election",
+                    "description":"2024 US Presidential Election"
+                }
+            },
+            {
+                "domain":{
+                    "id":"159",
+                    "name":"States",
+                    "description":"States, provinces, or prefectures, like California or Fukushima Prefecture"
+                },
+                "entity":{
+                    "id":"856860158428798977",
+                    "name":"California",
+                    "description":"California"
+                }
+            },
+            {
+                "domain":{
+                    "id":"29",
+                    "name":"Events [Entity Service]",
+                    "description":"Real world events. "
+                },
+                "entity":{
+                    "id":"1836137739353292800",
+                    "name":"2024 US Election",
+                    "description":"Brought to you by @Polymarket. Get live, unbiased 2024 election forecasts: https:\/\/polymarket.com\/elections\n"
+                }
+            }
+        ],
+        "4":[
+            {
+                "domain":{
+                    "id":"123",
+                    "name":"Ongoing News Story",
+                    "description":"Ongoing News Stories like 'Brexit'"
+                },
+                "entity":{
+                    "id":"1220701888179359745",
+                    "name":"COVID-19"
+                }
+            },
+            {
+                "domain":{
+                    "id":"131",
+                    "name":"Unified Twitter Taxonomy",
+                    "description":"A taxonomy of user interests. "
+                },
+                "entity":{
+                    "id":"1220701888179359745",
+                    "name":"COVID-19"
+                }
+            },
+            {
+                "domain":{
+                    "id":"29",
+                    "name":"Events [Entity Service]",
+                    "description":"Real world events. "
+                },
+                "entity":{
+                    "id":"1219057585707315201",
+                    "name":"COVID-19: Latest news updates from around the world",
+                    "description":"This page is a timeline of Tweets with the latest information and updates on COVID-19 from experts, journalists, health authorities and other trusted sources from around the world. For more on COVID-19, visit: twitter.com\/explore\/tabs\/covid-19"
+                }
+            }
+        ],
+        "5":[
+            {
+                "domain":{
+                    "id":"123",
+                    "name":"Ongoing News Story",
+                    "description":"Ongoing News Stories like 'Brexit'"
+                },
+                "entity":{
+                    "id":"1220701888179359745",
+                    "name":"COVID-19"
+                }
+            },
+            {
+                "domain":{
+                    "id":"131",
+                    "name":"Unified Twitter Taxonomy",
+                    "description":"A taxonomy of user interests. "
+                },
+                "entity":{
+                    "id":"1220701888179359745",
+                    "name":"COVID-19"
+                }
+            },
+            {
+                "domain":{
+                    "id":"29",
+                    "name":"Events [Entity Service]",
+                    "description":"Real world events. "
+                },
+                "entity":{
+                    "id":"1219057585707315201",
+                    "name":"COVID-19: Latest news updates from around the world",
+                    "description":"This page is a timeline of Tweets with the latest information and updates on COVID-19 from experts, journalists, health authorities and other trusted sources from around the world. For more on COVID-19, visit: twitter.com\/explore\/tabs\/covid-19"
+                }
+            }
+        ],
+        "6":[
+            {
+                "domain":{
+                    "id":"123",
+                    "name":"Ongoing News Story",
+                    "description":"Ongoing News Stories like 'Brexit'"
+                },
+                "entity":{
+                    "id":"1220701888179359745",
+                    "name":"COVID-19"
+                }
+            },
+            {
+                "domain":{
+                    "id":"131",
+                    "name":"Unified Twitter Taxonomy",
+                    "description":"A taxonomy of user interests. "
+                },
+                "entity":{
+                    "id":"1220701888179359745",
+                    "name":"COVID-19"
+                }
+            }
+        ],
+        "7":[
+            {
+                "domain":{
+                    "id":"46",
+                    "name":"Business Taxonomy",
+                    "description":"Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity":{
+                    "id":"1557696848252391426",
+                    "name":"Financial Services Business",
+                    "description":"Brands, companies, advertisers and every non-person handle with the profit intent related to Banks, Credit cards, Insurance, Investments, Stocks "
+                }
+            },
+            {
+                "domain":{
+                    "id":"46",
+                    "name":"Business Taxonomy",
+                    "description":"Categories within Brand Verticals that narrow down the scope of Brands"
+                },
+                "entity":{
+                    "id":"1557697333571112960",
+                    "name":"Technology Business",
+                    "description":"Brands, companies, advertisers and every non-person handle with the profit intent related to softwares, apps, communication equipments, hardwares"
+                }
+            },
+            {
+                "domain":{
+                    "id":"123",
+                    "name":"Ongoing News Story",
+                    "description":"Ongoing News Stories like 'Brexit'"
+                },
+                "entity":{
+                    "id":"1220701888179359745",
+                    "name":"COVID-19"
+                }
+            },
+            {
+                "domain":{
+                    "id":"131",
+                    "name":"Unified Twitter Taxonomy",
+                    "description":"A taxonomy of user interests. "
+                },
+                "entity":{
+                    "id":"1220701888179359745",
+                    "name":"COVID-19"
+                }
+            },
+            {
+                "domain":{
+                    "id":"10",
+                    "name":"Person",
+                    "description":"Named people in the world like Nelson Mandela"
+                },
+                "entity":{
+                    "id":"808713037230157824",
+                    "name":"Elon Musk",
+                    "description":"Elon Musk"
+                }
+            },
+            {
+                "domain":{
+                    "id":"65",
+                    "name":"Interests and Hobbies Vertical",
+                    "description":"Top level interests and hobbies groupings, like Food or Travel"
+                },
+                "entity":{
+                    "id":"781974596148793345",
+                    "name":"Business & finance"
+                }
+            },
+            {
+                "domain":{
+                    "id":"66",
+                    "name":"Interests and Hobbies Category",
+                    "description":"A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+                },
+                "entity":{
+                    "id":"857878777191211008",
+                    "name":"Leadership",
+                    "description":"Leadership"
+                }
+            },
+            {
+                "domain":{
+                    "id":"131",
+                    "name":"Unified Twitter Taxonomy",
+                    "description":"A taxonomy of user interests. "
+                },
+                "entity":{
+                    "id":"808713037230157824",
+                    "name":"Elon Musk",
+                    "description":"Elon Musk"
+                }
+            },
+            {
+                "domain":{
+                    "id":"131",
+                    "name":"Unified Twitter Taxonomy",
+                    "description":"A taxonomy of user interests. "
+                },
+                "entity":{
+                    "id":"1091420346660470784",
+                    "name":"Tech personalities",
+                    "description":"Tech Professionals"
+                }
+            },
+            {
+                "domain":{
+                    "id":"131",
+                    "name":"Unified Twitter Taxonomy",
+                    "description":"A taxonomy of user interests. "
+                },
+                "entity":{
+                    "id":"1166406108623163392",
+                    "name":"Business personalities"
+                }
+            },
+            {
+                "domain":{
+                    "id":"29",
+                    "name":"Events [Entity Service]",
+                    "description":"Real world events. "
+                },
+                "entity":{
+                    "id":"1219057585707315201",
+                    "name":"COVID-19: Latest news updates from around the world",
+                    "description":"This page is a timeline of Tweets with the latest information and updates on COVID-19 from experts, journalists, health authorities and other trusted sources from around the world. For more on COVID-19, visit: twitter.com\/explore\/tabs\/covid-19"
+                }
+            }
+        ],
+        "8":[
+            {
+                "domain":{
+                    "id":"123",
+                    "name":"Ongoing News Story",
+                    "description":"Ongoing News Stories like 'Brexit'"
+                },
+                "entity":{
+                    "id":"1220701888179359745",
+                    "name":"COVID-19"
+                }
+            },
+            {
+                "domain":{
+                    "id":"131",
+                    "name":"Unified Twitter Taxonomy",
+                    "description":"A taxonomy of user interests. "
+                },
+                "entity":{
+                    "id":"1220701888179359745",
+                    "name":"COVID-19"
+                }
+            }
+        ],
+        "9":[
+            {
+                "domain":{
+                    "id":"123",
+                    "name":"Ongoing News Story",
+                    "description":"Ongoing News Stories like 'Brexit'"
+                },
+                "entity":{
+                    "id":"1220701888179359745",
+                    "name":"COVID-19"
+                }
+            },
+            {
+                "domain":{
+                    "id":"131",
+                    "name":"Unified Twitter Taxonomy",
+                    "description":"A taxonomy of user interests. "
+                },
+                "entity":{
+                    "id":"1220701888179359745",
+                    "name":"COVID-19"
+                }
+            }
+        ]
+    },
+    "language":{
+        "0":"anglais",
+        "1":"anglais",
+        "2":"anglais",
+        "3":"anglais",
+        "4":"anglais",
+        "5":"anglais",
+        "6":"anglais",
+        "7":"anglais",
+        "8":"anglais",
+        "9":"anglais"
+    }
+}
