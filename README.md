@@ -12,6 +12,6 @@
 
 ## Structure du projet
 
-- ***.** Développer un système capable de détecter la désinformation dans des données textuelles multilingues en utilisant des techniques de Big Data, de traitement du langage naturel (NLP), et des environnements cloud.
+-  Développer un système capable de détecter la désinformation dans des données textuelles multilingues en utilisant des techniques de Big Data, de traitement du langage naturel (NLP), et des environnements cloud.
 
-- ***.** Focalisation sur les textes provenant de réseaux sociaux (comme Twitter/X, Facebook) et de sites d’information, incluant au moins trois langues (par exemple, français, anglais, arabe).
+-  Focalisation sur les textes provenant de réseaux sociaux (comme Twitter/X, Facebook) et de sites d’information, incluant au moins trois langues (par exemple, français, anglais, arabe).
