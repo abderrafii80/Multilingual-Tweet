@@ -20,7 +20,7 @@ def get_google_news(query, language, location, num_requests=5, articles_per_requ
             "q": query,
             "hl": language,
             "gl": location,
-            "api_key": "d5d3c22a44c999cd9caea78296d85f3e53965db5ce5c3e61b6ed633a68f61789",  # Remplacez par votre clé API valide
+            "api_key": "d5d3c22a44c999cd9caea78296d85f3e53965db5ce5c3e61b6ed633a68f61789",  #
             "start": i * articles_per_request  # Pagination : start = 0, 100, 200, etc.
         }
 
