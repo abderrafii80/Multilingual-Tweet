@@ -21,6 +21,12 @@ def clean_tweet(tweet, stopwords, lang='en'):
     tweet = BeautifulSoup(tweet, "html.parser").get_text()  # Enlever les balises HTML
     # Nettoyer les balises spécifiques et les retours à la ligne
     tweet = re.sub(r"<ul>|</ul>|<li>|</li>|<br>|<p>|</p>|\r\n|\n", " ", tweet)  # Supprimer les balises <ul>, <li> et les retours à la ligne
+
+    # Normaliser les lettres accentuées (applicable pour le français)
+    if lang in ['fr', 'en']:  # On inclut l'anglais si besoin
+        tweet = unicodedata.normalize('NFD', tweet)  # Décompose les caractères accentués en lettre de base + diacritiques
+        tweet = ''.join(c for c in tweet if unicodedata.category(c) != 'Mn')  # Supprime les diacritiques (accents)
+        
     tweet = re.sub(r'[^\w\s]', '', tweet)  # Enlever les caractères de ponctuation
     tweet = re.sub(r'(\w+)ing\b', r'\1', tweet) # Supprimer le suffixe ing
     # Supprimer les mentions et les hashtags

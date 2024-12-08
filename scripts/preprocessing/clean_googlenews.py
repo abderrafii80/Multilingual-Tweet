@@ -21,6 +21,12 @@ def clean_tweet(tweet, stopwords, lang='en'):
     tweet = BeautifulSoup(tweet, "html.parser").get_text()  # Enlever les balises HTML
     # Nettoyer les balises spécifiques et les retours à la ligne
     tweet = re.sub(r"<ul>|</ul>|<li>|</li>|<br>|<p>|</p>|\r\n|\n", " ", tweet)  # Supprimer les balises <ul>, <li> et les retours à la ligne
+
+    # Normaliser les lettres accentuées (applicable pour le français)
+    if lang in ['fr', 'en']:  # On inclut l'anglais si besoin
+        tweet = unicodedata.normalize('NFD', tweet)  # Décompose les caractères accentués en lettre de base + diacritiques
+        tweet = ''.join(c for c in tweet if unicodedata.category(c) != 'Mn')  # Supprime les diacritiques (accents)
+
     tweet = re.sub(r'[^\w\s]', '', tweet)  # Enlever les caractères de ponctuation
     tweet = re.sub(r'(\w+)ing\b', r'\1', tweet) # Supprimer le suffixe ing
     # Supprimer les mentions et les hashtags
@@ -28,6 +34,7 @@ def clean_tweet(tweet, stopwords, lang='en'):
     tweet = re.sub(r"(?:\@|http?\://|https?\://|www)\S+", "", tweet)  # Supprimer les liens
     tweet = re.sub(r"[^a-zA-Z\u0621-\u064A\s]", "", tweet)  # Garder uniquement les lettres et espaces
 
+    
     # Traitement spécifique pour l'arabe (normalisation des lettres)
     if lang == 'ar':
         tweet = re.sub(r"[إأآا]", "ا", tweet)  # Normalisation de l'alphabet arabe
@@ -76,13 +83,22 @@ def load_stopwords(file_path):
 # =========== Fonction process_data
 def process_data(lang):
     # Charger le fichier JSON
-    file_path = f"data/raw/articles_{lang}.json"
+    file_path = f"data/raw/google_news_{lang}.json"
     with open(file_path, "r", encoding="utf-8") as file:
         data = json.load(file)
     
-    # Extraire la liste d'articles depuis la clé principale
-    key = list(data.keys())[0]  # Exemple : "coronavirus"
-    articles = data[key]
+    # # Extraire la liste d'articles depuis la clé principale
+    # key = list(data.keys())[0]  # Exemple : "coronavirus"
+    # articles = data[key]
+
+    # Vérifiez si c'est une liste
+    if isinstance(data, list):
+        articles = data
+    elif isinstance(data, dict):
+        key = list(data.keys())[0]  # Exemple : "coronavirus"
+        articles = data[key]
+    else:
+        raise ValueError(f"Structure JSON inattendue dans {file_path}")
     
     # Charger les stopwords
     stopwords = load_stopwords(f"config/stopwords/stopwords_{lang}.txt")
@@ -106,17 +122,17 @@ def process_data(lang):
         # Ajouter les résultats
         results.append({
             "title": title,
-            "description": description,
-            "content": content,
-            "lemmatized_text": lemmatized_text,
-            "diseases": entities["diseases"],
-            "vaccines": entities["vaccines"],
-            "treatments": entities["treatments"],
+            # "description": description,
+            # "content": content,
+            # "lemmatized_text": lemmatized_text,
+            # "diseases": entities["diseases"],
+            # "vaccines": entities["vaccines"],
+            # "treatments": entities["treatments"],
         })
     
     # Convertir en DataFrame et sauvegarder
     df = pd.DataFrame(results)
-    output_file = f"data/cleaned/cleaned_articles_{lang}.json"
+    output_file = f"data/cleaned/cleaned_googlenews_{lang}.json"
     df.to_json(output_file, force_ascii=False, orient="records", indent=4)
     print(f"Data cleaned and saved to {output_file}")
 

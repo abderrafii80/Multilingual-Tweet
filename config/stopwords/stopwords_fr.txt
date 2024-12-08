@@ -102,6 +102,7 @@ certains
 certes
 ces
 cet
+cest
 cette
 ceux
 ceux-ci

@@ -10,6 +10,10 @@ import emoji
 # Fonction de nettoyage des tweets
 def clean_tweet(tweet, stopwords, lang='en'):
     # ========= Nettoyage des tweets
+    if lang in ['fr', 'en']:  # On inclut l'anglais si besoin
+        tweet = unicodedata.normalize('NFD', tweet)  # Décompose les caractères accentués en lettre de base + diacritiques
+        tweet = ''.join(c for c in tweet if unicodedata.category(c) != 'Mn')  # Supprime les diacritiques (accents)
+
     tweet = re.sub("@[A-Za-z0-9]+", "", tweet)  
     tweet = re.sub(r"(?:\@|http?\://|https?\://|www)\S+", "", tweet)  
     tweet = re.sub(r"[^a-zA-Z\u0621-\u064A\s]", "", tweet)  
@@ -60,7 +64,7 @@ def process_data(lang):
         df.at[i, 'text'] = clean_tweet(tweet, stopwords, lang)
 
     # Sauvegarder le DataFrame nettoyé (Save)
-    output_file = f'data/cleaned/cleaned_{lang}.json'
+    output_file = f'data/cleaned/cleaned_tweets_{lang}.json'
     df.to_json(output_file, force_ascii=False, indent=4)
     print(f"Data cleaned and saved to {output_file}")
 
