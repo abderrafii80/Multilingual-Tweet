@@ -1,0 +1,103 @@
+
+##==============================================================================================
+##==============================================================================================
+##==================================== Architecture de la pipeline   ===========================
+##========================================= Apache NiFi ========================================
+##==============================================================================================
+
+               +------------------------------------+
+               |    Sources de Données (APIs)       |
+               |------------------------------------|
+               | - Twitter API                      |
+               | - Google News API                  |
+               | - NewsAPI                          |
+               +------------------------------------+
+                            |
+                            v
+   +----------------------------------------------------+
+   |              Apache NiFi (Orchestration)           |
+   |----------------------------------------------------|
+   |  1. Collecte des Données via InvokeHTTP            |
+   |     - Appel aux APIs pour récupérer les données    |
+   |                                                    |
+   |  2. Transformation JSON via EvaluateJsonPath       |
+   |     - Structuration des réponses brutes au format  |
+   |       JSON pour un traitement simplifié.           |
+   |                                                    |
+   |  3. Nettoyage des Données via ExecuteScript        |
+   |     - Suppression des balises HTML                 |
+   |     - Élimination des stopwords                    |
+   |     - Conversion des mots en minuscule             |
+   |     - Stemming/Lemmatisation (arabe, français,     |
+   |       anglais).                                    |
+   |                                                    |
+   |  4. Envoi vers HDFS via PutHDFS                    |
+   |     - Stockage des données nettoyées au format     |
+   |       JSON dans HDFS pour analyse ultérieure.      |
+   +----------------------------------------------------+
+                            |
+                            v
+         +---------------------------------------+
+         |          Stockage des Données         |
+         |---------------------------------------|
+         |   HDFS (Hadoop Distributed FileSystem)|
+         | - Chemin : /user/data/cleaned_data/   |
+         +---------------------------------------+
+                            |
+                            v
+  +--------------------------------------------------+
+  |            Étapes Suivantes (Analyse)            |
+  |--------------------------------------------------|
+  |  1. Prétraitement : Utilisation de Spark ou Hive |
+  |     - Chargement des données nettoyées           |
+  |     - Feature Engineering (TF-IDF, Word2Vec).    |
+  |                                                  |
+  |  2. Visualisation :                              |
+  |     - Nuages de mots (matplotlib, Tableau, etc.) |
+  |     - Exploration via clustering (k-means, etc.) |
+  +--------------------------------------------------+
+
+
+
+
+
+##==============================================================================================
+##==============================================================================================
+##==================================== Diagramme Visuels   =====================================
+##==============================================================================================
+##==============================================================================================
+
+
+
+   +-------------+     +----------------+     +------------------+     +---------+
+   |   Twitter   |     |  Google News   |     |    NewsAPI       |     |  HDFS   |
+   |     API     |     |      API       |     |                  |     | Storage |
+   +-------------+     +----------------+     +------------------+     +---------+
+         |                    |                        |
+         +--------------------+------------------------+
+                              |
+                              v
+                    +---------------------+
+                    | Apache NiFi         |
+                    |---------------------|
+                    | InvokeHTTP          |
+                    | EvaluateJsonPath    |
+                    | ExecuteScript       |
+                    | PutHDFS             |
+                    +---------------------+
+                              |
+                              v
+                       +--------------+
+                       | HDFS Storage |
+                       +--------------+
+                              |
+                              v
+                   +--------------------+
+                   |  Spark / Hive      |
+                   +--------------------+
+                              |
+                              v
+                   +--------------------+
+                   |  Tableau / PowerBI |
+                   +--------------------+
+
